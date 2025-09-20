@@ -29,12 +29,27 @@
 // export default Apple;
 
 
-import Todo from './Todo'
+// import Todo from './Todo'
 
-function App() {
-  return (
-    <Todo/>
+// function App() {
+//   return (
+//     <Todo/>
+//   )
+// }
+
+// export default App
+
+
+// jsx with Curly Braces ...
+
+import Ap from "./JsxWithCurlyBraces"; 
+
+function App(){
+  return(
+    <div>
+      <Ap/>
+    </div>
   )
 }
 
-export default App
+export default App;
