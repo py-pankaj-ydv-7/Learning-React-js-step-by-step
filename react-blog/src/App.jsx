@@ -43,12 +43,14 @@
 // jsx with Curly Braces ...
 
 // import Ap from "./JsxWithCurlyBraces"; 
-import Click from "./ClickEventAndFunctionCall";
+// import Click from "./ClickEventAndFunctionCall";
+import State from "./StateInReactjs";
 function App(){
   return(
     <div>
       {/* <Ap/> */}
-      <Click/>
+      {/* <Click/> */}
+      <State/>
 
     </div>
   )
