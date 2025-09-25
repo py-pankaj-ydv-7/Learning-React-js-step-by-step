@@ -1,5 +1,7 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
+
+
 // function Apple(){
 //   return(
 //     <div>
@@ -44,14 +46,19 @@
 
 // import Ap from "./JsxWithCurlyBraces"; 
 // import Click from "./ClickEventAndFunctionCall";
-import State from "./StateInReactjs";
+
+// import State from "./StateInReactjs";
+
+// import Toggle from "./ToggleHideAndShow";
+import MultipleCondition from "./MultipleCondition";
 function App(){
   return(
     <div>
       {/* <Ap/> */}
       {/* <Click/> */}
-      <State/>
-
+      {/* <State/> */}
+      {/* <Toggle/> */}
+      <MultipleCondition />
     </div>
   )
 }
