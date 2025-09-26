@@ -1,5 +1,5 @@
 import { useState } from "react";
-function multipleCondition() {
+function MultipleCondition() {
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -20,4 +20,4 @@ function multipleCondition() {
   );
 }
 
-export default multipleCondition;
+export default MultipleCondition;
