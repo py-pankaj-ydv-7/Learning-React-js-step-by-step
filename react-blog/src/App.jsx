@@ -2,6 +2,7 @@
 
 
 
+
 // function Apple(){
 //   return(
 //     <div>
@@ -50,17 +51,39 @@
 // import State from "./StateInReactjs";
 
 // import Toggle from "./ToggleHideAndShow";
-import MultipleCondition from "./MultipleCondition";
+// import MultipleCondition from "./MultipleCondition";
+import User from "./UserProps";
+
+// function App(){
+//   return(
+//     <div>
+//       {/* <Ap/> */}
+//       {/* <Click/> */}
+//       {/* <State/> */}
+//       {/* <Toggle/> */}
+//       {/* <MultipleCondition /> */}
+//       {<User/>}
+//     </div>
+//   )
+// }
+
+/* ************* Props **************/
+
 function App(){
+  // let name = "Pankaj Yadav";
   return(
     <div>
       {/* <Ap/> */}
       {/* <Click/> */}
       {/* <State/> */}
       {/* <Toggle/> */}
-      <MultipleCondition />
+      {/* <MultipleCondition /> */}
+      <h1>Props in React js </h1>
+      {/* <h1>{name}</h1> */}
+      <User name={"pankaj yadav"}/>
     </div>
   )
 }
+
 
 export default App;
