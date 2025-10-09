@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function User(props){
     // console.log(props.name);
     return (
@@ -8,4 +10,9 @@ function User(props){
         </div>
     )
 }
+
+User.propTypes = {
+    name: PropTypes.string.isRequired
+};
+
 export default User;
