@@ -12,10 +12,32 @@ function App() {
     age: 22,
     skills: ["HTML ", " CSS ", " JavaScript ", " React"]
   };
+  
+  function fruit() {
+    return "Apple";
+    
+  }
+  let a=12;
+  let b =43;
+
+  function sum(a,b){
+    return a+b;
+  }
 
   // function operation(a,b){
   //   return a+b;
   // }
+  function opereatio(a,b,op){
+    if(op==="+"){
+      return a+b;
+    }
+    else if (op==="-"){
+      return a-b
+    }
+    else{
+      return "kuch or type kr bhai galat kiy hai "
+    }
+  }
 
   return (
     <>
@@ -27,6 +49,12 @@ function App() {
       {name.toUpperCase()}
       <br />
       {user.skills}
+      <h1>{fruit()}</h1>
+      <h1>{a+b}</h1>
+      <h1>{sum(3,6)}</h1>
+      {
+        opereatio(2,5,"+")
+      }
       {/* {
        name==="shubham "?<h1>me true hu </h1> :<h1>me else wala hu </h1>
       }
