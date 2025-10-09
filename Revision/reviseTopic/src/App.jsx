@@ -1,7 +1,8 @@
-
-import { useState } from 'react';
-import './App.css'
-import Counter from './Counter';
+// import { useState } from 'react';
+import MultipleCondition from "./MultipleConditon";
+import "./App.css";
+// import Counter from "./Counter";
+// import Toggle from './Toggle';
 // import Footer from './Footer'
 // import Header from './Header'
 // import Hero from './Hero'
@@ -9,16 +10,16 @@ import Counter from './Counter';
 function App() {
   // const [count, setCount] = useState(0)
   // let name = "Pankaj Yadav";
-  // // objects 
+  // // objects
   //   const user = {
   //   name: "Pankaj",
   //   age: 22,
   //   skills: ["HTML ", " CSS ", " JavaScript ", " React"]
   // };
-  
+
   // function fruit() {
   //   return "Apple";
-    
+
   // }
   // let a=12;
   // let b =43;
@@ -45,25 +46,27 @@ function App() {
   //   alert("function called")
   // }
 
-  {/******************************* state ********************************/}
+  {
+    /******************************* state ********************************/
+  }
 
-  const [fruit,setFruit]=useState("Apple");
+  // const [fruit,setFruit]=useState("Apple");
 
   // let fruit ="Apple";
-  const handleFruit=()=>{
-   
-    setFruit  (fruit === "Apple"?"Banana":"Apple")   
-  }
+  // const handleFruit=()=>{
+
+  //   setFruit  (fruit === "Apple"?"Banana":"Apple")
+  // }
   // const handleFruit2=()=>{
-   
-  //   setFruit  ("Apple")   
+
+  //   setFruit  ("Apple")
   // }
 
   // let [fruit, setFruit] =useState ("Apple");
 
   return (
     <>
-    {/* <Header/> */}
+      {/* <Header/> */}
       {/* <h1>Hello i'm Pankaj Yadav </h1>
       <h2>learning react , this is my Revision folder, where i revise my all topics those i learn  </h2> */}
       {/* <Hero/>
@@ -81,25 +84,26 @@ function App() {
 
       <button onClick={callFun}>onClick to alert! </button> */}
 
-
       {/* {
        name==="shubham "?<h1>me true hu </h1> :<h1>me else wala hu </h1>
       }
       <h1>this is {operation(3,5)}</h1> */}
       <h1>State in React Js</h1>
-      {
+      {/* {
         fruit
-      }
+      } */}
       <br />
       {/* so here i used to single button to change fruit name , so how ,ans i used condition */}
-      <button onClick={handleFruit}>Change In to Banana</button>
+      {/* <button onClick={handleFruit}>Change In to Banana</button> */}
       {/* <button onClick={handleFruit2}>Change In to Apple</button> */}
       <br />
       {/* <Counter/> */}
 
-      
+      {/* Yaha me Toggle or Hide and Show seek raha hu  */}
+      {/* <Toggle /> */}
+      <MultipleCondition/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
