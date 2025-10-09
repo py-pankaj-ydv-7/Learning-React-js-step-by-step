@@ -1,43 +1,65 @@
+
+import { useState } from 'react';
 import './App.css'
+import Counter from './Counter';
 // import Footer from './Footer'
 // import Header from './Header'
 // import Hero from './Hero'
 
 function App() {
   // const [count, setCount] = useState(0)
-  let name = "Pankaj Yadav";
-  // objects 
-    const user = {
-    name: "Pankaj",
-    age: 22,
-    skills: ["HTML ", " CSS ", " JavaScript ", " React"]
-  };
+  // let name = "Pankaj Yadav";
+  // // objects 
+  //   const user = {
+  //   name: "Pankaj",
+  //   age: 22,
+  //   skills: ["HTML ", " CSS ", " JavaScript ", " React"]
+  // };
   
-  function fruit() {
-    return "Apple";
+  // function fruit() {
+  //   return "Apple";
     
-  }
-  let a=12;
-  let b =43;
+  // }
+  // let a=12;
+  // let b =43;
 
-  function sum(a,b){
-    return a+b;
-  }
+  // function sum(a,b){
+  //   return a+b;
+  // }
 
   // function operation(a,b){
   //   return a+b;
   // }
-  function opereatio(a,b,op){
-    if(op==="+"){
-      return a+b;
-    }
-    else if (op==="-"){
-      return a-b
-    }
-    else{
-      return "kuch or type kr bhai galat kiy hai "
-    }
+  // function opereatio(a,b,op){
+  //   if(op==="+"){
+  //     return a+b;
+  //   }
+  //   else if (op==="-"){
+  //     return a-b
+  //   }
+  //   else{
+  //     return "kuch or type kr bhai galat kiy hai "
+  //   }
+  // }
+  // function callFun(){
+  //   alert("function called")
+  // }
+
+  {/******************************* state ********************************/}
+
+  const [fruit,setFruit]=useState("Apple");
+
+  // let fruit ="Apple";
+  const handleFruit=()=>{
+   
+    setFruit  (fruit === "Apple"?"Banana":"Apple")   
   }
+  // const handleFruit2=()=>{
+   
+  //   setFruit  ("Apple")   
+  // }
+
+  // let [fruit, setFruit] =useState ("Apple");
 
   return (
     <>
@@ -46,7 +68,7 @@ function App() {
       <h2>learning react , this is my Revision folder, where i revise my all topics those i learn  </h2> */}
       {/* <Hero/>
       <Footer/> */}
-      {name.toUpperCase()}
+      {/* {name.toUpperCase()}
       <br />
       {user.skills}
       <h1>{fruit()}</h1>
@@ -55,11 +77,27 @@ function App() {
       {
         opereatio(2,5,"+")
       }
+      <br />
+
+      <button onClick={callFun}>onClick to alert! </button> */}
+
+
       {/* {
        name==="shubham "?<h1>me true hu </h1> :<h1>me else wala hu </h1>
       }
       <h1>this is {operation(3,5)}</h1> */}
+      <h1>State in React Js</h1>
+      {
+        fruit
+      }
+      <br />
+      {/* so here i used to single button to change fruit name , so how ,ans i used condition */}
+      <button onClick={handleFruit}>Change In to Banana</button>
+      {/* <button onClick={handleFruit2}>Change In to Apple</button> */}
+      <br />
+      {/* <Counter/> */}
 
+      
     </>
   )
 }
