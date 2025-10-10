@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import MultipleCondition from "./MultipleConditon";
 import "./App.css";
+import GetInputField from "./GetInputField";
 // import Counter from "./Counter";
 // import Toggle from './Toggle';
 // import Footer from './Footer'
@@ -88,7 +89,7 @@ function App() {
        name==="shubham "?<h1>me true hu </h1> :<h1>me else wala hu </h1>
       }
       <h1>this is {operation(3,5)}</h1> */}
-      <h1>State in React Js</h1>
+      {/* <h1>State in React Js</h1> */}
       {/* {
         fruit
       } */}
@@ -101,7 +102,9 @@ function App() {
 
       {/* Yaha me Toggle or Hide and Show seek raha hu  */}
       {/* <Toggle /> */}
-      <MultipleCondition/>
+      {/* <MultipleCondition/> */}
+      <h1>Get input Value here !</h1>
+      <GetInputField/>
     </>
   );
 }
