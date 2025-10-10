@@ -118,7 +118,7 @@ function App(){
       <h1>Hello React 19</h1> */}
        {/* <User name="panakj yadav" />  */}
 
-       {/* props ******/}
+       {/* props pad chuka hu me ******/}
        <Props/>
 
     </div>
