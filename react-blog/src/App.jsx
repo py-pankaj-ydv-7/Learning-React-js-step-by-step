@@ -1,5 +1,7 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
+// import GetInputFeild from "./GetInputFeild";
+
 // import Todo from "./Todo";
 // import User from "./User";
 // import Wrapper from "./Wrapper";
@@ -9,32 +11,34 @@
 
 
 
-function Apple(){
+// // function Apple(){
 
-  const userName= "pankaj yadav";
-  return(
+//   // let userName= "pankaj yadav";
+  
+//   // return(
 
-    <div>
-      {/* <h1>Hello</h1>
-      <h1>Code step by step, {userName}</h1>
-      <button onClick={()=> alert("hello click karne k liye , Thankyouuuuuuu")}>Click me </button> */}
-      {/* {UserKey}  yaha hamne userkay ko export kiya  */}
-       {/* <Fruit/> */}
-     {/* <Colors/> */}
-      {/* <Login></Login>
-      <Profile/>     
-      <Setting/> */}
-      {/* <Todo/> */}
-      <h1>Props in React js </h1>
-      ,<h1>{userName}</h1>
-      {/* <Wrapper>
-        <h1>Hello, Everyone</h1>
-      </Wrapper> */}
-      {/* <User name="pankaj yadav"/>
-      <User /> */}
-    </div>
-  )
-}
+//   //   <div>
+//       {/* <h1>Hello</h1>
+//       <h1>Code step by step, {userName}</h1>
+//       <button onClick={()=> alert("hello click karne k liye , Thankyouuuuuuu")}>Click me </button> */}
+//       {/* {UserKey}  yaha hamne userkay ko export kiya  */}
+//        {/* <Fruit/> */}
+//      {/* <Colors/> */}
+//       {/* <Login></Login>
+//       <Profile/>     
+//       <Setting/> */}
+//       {/* <Todo/> */}
+//       {/* <h1>Props in React js </h1> */}
+//       {/* ,<h1>{userName}</h1> */}
+//       {/* <GetInputFeild/> */}
+//       {/* <Wrapper>
+//         <h1>Hello, Everyone</h1>
+//       </Wrapper> */}
+//       {/* {/* <User name="pankaj yadav"/> */}
+     
+// //     </div>
+// //   )
+// // }
 
 
 // function Fruit(){
@@ -69,6 +73,7 @@ function Apple(){
 
 // import State from "./StateInReactjs";
 
+import Props from "./Props";
 // import Toggle from "./ToggleHideAndShow";
 // import MultipleCondition from "./MultipleCondition";
 // import User from "./UserProps";
@@ -79,7 +84,7 @@ function Apple(){
 //       {/* <Ap/> */}
 //       {/* <Click/> */}
 //       {/* <State/> */}
-//       {/* <Toggle/> */}
+      // {/* <Toggle/> */}
 //       {/* <MultipleCondition /> */}
 //       {<User/>}
 //     </div>
@@ -87,24 +92,39 @@ function Apple(){
 // }
 
 /* ************* Props **************/
+/*
+what is props?
+Make Component '
+Pass data between components
+>var, object , array
+Receive and Display Data.
+Pass data in component with click
+interview Question
+*/
 
-// function App(){
-//   // let name = "Pankaj Yadav";
-//   return(
-//     <div>
-//       {/* <Ap/> */}
-//       {/* <Click/> */}
-//       {/* <State/> */}
-//       {/* <Toggle/> */}
-//       {/* <MultipleCondition /> */}
-//       {/* <h1>Props in React js </h1> */}
-//       {/* <h1>{name}</h1> */}
-//       {/* <User name={"pankaj yadav"}/> */}
-//       <h1>Code Step by Step </h1>
-//       <h1>Hello React 19</h1>
-//     </div>
-//   )
-// }
+function App(){
+  // let name = "Pankaj Yadav";
+  return(
+    <div>
+      {/* <Ap/> */}
+      {/* <Click/> */}
+      {/* <State/> */}
+      {/* <Toggle/> */}
+      {/* <MultipleCondition /> */}
+      {/* <h1>Props in React js </h1> */}
+      {/* <h1>{name}</h1> */}
+      {/* <User name={"pankaj yadav"}/> */}
+      {/* <h1>Code Step by Step </h1>
+      <h1>Hello React 19</h1> */}
+       {/* <User name="panakj yadav" />  */}
+
+       {/* props ******/}
+       <Props/>
+
+    </div>
+  )
+}
 
 
-export default Apple;
+export default App;
+// export default Apple;
