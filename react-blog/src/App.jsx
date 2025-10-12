@@ -1,5 +1,8 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
+// import HandleCheckbox from "./HandleCheckbox";
+import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
+
 // import GetInputFeild from "./GetInputFeild";
 
 // import Todo from "./Todo";
@@ -73,7 +76,7 @@
 
 // import State from "./StateInReactjs";
 
-import ControlledComponent from "./ControlledComponent";
+// import ControlledComponent from "./ControlledComponent";
 // import Props from "./Props";
 // import Toggle from "./ToggleHideAndShow";
 // import MultipleCondition from "./MultipleCondition";
@@ -123,7 +126,10 @@ function App(){
        {/* <Props/> */}
 
        {/* ** Yaha me controlled component pad chuka hu  */}
-       <ControlledComponent />
+       {/* <ControlledComponent /> */}
+       {/* <HandleCheckbox /> */}
+       <HadleRadioAndDropdown/>
+
 
     </div>
   )
