@@ -9,7 +9,7 @@ function ControlledComponent() {
     <div>
         <h1>Controlled Component</h1>
 
-        {/* <form action="" method="get"> */}
+        <form action="" method="get">
             <input type="text" value={name} onChange={(event)=>setName(event.target.value)} placeholder="enter Name" />
             <br /><br />
             <input type="password" value={password} onChange={(event)=>setPassword(event.target.value)} placeholder="enter Password" />
@@ -18,7 +18,7 @@ function ControlledComponent() {
             <br /><br />
             <button>Submit</button>
             <button onClick={()=>{setEmail("");setName(""); setPassword("")}}>Clear</button>
-        {/* </form>/ */}
+        </form>
         <h3>{name}</h3>
         <h3>{password}</h3>
         <h3>{email}</h3>
