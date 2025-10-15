@@ -1,5 +1,7 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
+import LoopInJsx from "./LoopInJsx";
+
 // import HandleCheckbox from "./HandleCheckbox";
 // import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
 
@@ -77,7 +79,7 @@
 // import State from "./StateInReactjs";
 
 // import ControlledComponent from "./ControlledComponent";
-import Getfeild from "./Getfeild";
+// import Getfeild from "./Getfeild";
 // import Props from "./Props";
 // import Toggle from "./ToggleHideAndShow";
 // import MultipleCondition from "./MultipleCondition";
@@ -130,7 +132,8 @@ function App(){
        {/* <ControlledComponent /> */}
        {/* <HandleCheckbox /> */}
        {/* <HadleRadioAndDropdown/> */}
-       <Getfeild/>
+       {/* <Getfeild/> */}
+       <LoopInJsx/>
 
 
     </div>
