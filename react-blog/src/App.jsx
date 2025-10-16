@@ -1,6 +1,10 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
-import LoopInJsx from "./LoopInJsx";
+import ArrayNestedLoop from "./ArrayNestedLoop";
+
+// import ReuseComponent from "./ReuseComponent";
+
+// import LoopInJsx from "./LoopInJsx";
 
 // import HandleCheckbox from "./HandleCheckbox";
 // import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
@@ -133,8 +137,9 @@ function App(){
        {/* <HandleCheckbox /> */}
        {/* <HadleRadioAndDropdown/> */}
        {/* <Getfeild/> */}
-       <LoopInJsx/>
-
+       {/* <LoopInJsx/> */}
+       {/* <ReuseComponent/> */}
+      <ArrayNestedLoop/>
 
     </div>
   )
