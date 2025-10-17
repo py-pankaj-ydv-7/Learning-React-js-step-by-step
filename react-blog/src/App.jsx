@@ -1,6 +1,8 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
-import ArrayNestedLoop from "./ArrayNestedLoop";
+import UseEffect from "./UseEffect";
+
+// import ArrayNestedLoop from "./ArrayNestedLoop";
 
 // import ReuseComponent from "./ReuseComponent";
 
@@ -139,7 +141,8 @@ function App(){
        {/* <Getfeild/> */}
        {/* <LoopInJsx/> */}
        {/* <ReuseComponent/> */}
-      <ArrayNestedLoop/>
+      {/* <ArrayNestedLoop/> */}
+      <UseEffect/>
 
     </div>
   )
