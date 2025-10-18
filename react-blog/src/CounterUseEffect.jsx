@@ -9,7 +9,7 @@ function CounterUseEffect({count,data}) {
     useEffect(()=>{
         getCounter();
         
-    },[count,data])
+    },[data])
   return (
     <div>
         <h1>{count}</h1>
