@@ -9,11 +9,33 @@ function CounterUseEffect({count,data}) {
     useEffect(()=>{
         getCounter();
         
-    },[data])
+    },[])
+    /// life cycle method.
+
+    useEffect(()=>{
+      console.log("mounting phase only ");
+      
+    },[])
+
+    useEffect(()=>{
+      console.log("Update phase only ");
+      
+    },[count])
+
+    // this code will run on unmount.
+
+    useEffect(()=>{
+      return ()=>{
+        console.log("unmount phase only ");
+      }
+      
+    },[])
+
+
   return (
     <div>
-        <h1>{count}</h1>
-        <h1>{data}</h1>
+        <h1>Counter Value :{count}</h1>
+        <h1>Data Value : {data}</h1>
     </div>
   )
 }
