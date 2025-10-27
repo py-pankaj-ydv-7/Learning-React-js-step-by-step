@@ -1,6 +1,8 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
-import UseEffect from "./UseEffect";
+// import InlineStyling from "./stylinginReact/InlineStyling";
+
+// import UseEffect from "./UseEffect";
 
 // import ArrayNestedLoop from "./ArrayNestedLoop";
 
@@ -95,8 +97,8 @@ import UseEffect from "./UseEffect";
 //   return(
 //     <div>
 //       {/* <Ap/> */}
-//       {/* <Click/> */}
-//       {/* <State/> */}
+      // {/* <Click/> */}
+      // {/* <State/> */}
       // {/* <Toggle/> */}
 //       {/* <MultipleCondition /> */}
 //       {<User/>}
@@ -142,7 +144,9 @@ function App(){
        {/* <LoopInJsx/> */}
        {/* <ReuseComponent/> */}
       {/* <ArrayNestedLoop/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      {/* <InlineStyling/> */}
+      {/* <Click/> */}
 
     </div>
   )
