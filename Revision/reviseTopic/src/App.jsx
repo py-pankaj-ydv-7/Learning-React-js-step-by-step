@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import HandleRadioButton from './HandleRadio';
+// import HandleRadioButton from './HandleRadio';
 // import MultipleCondition from "./MultipleConditon";
 // import "./App.css";
 // import GetInputField from "./GetInputField";
@@ -9,6 +9,7 @@ import HandleRadioButton from './HandleRadio';
 // import Footer from './Footer'
 // import Header from './Header'
 // import Hero from './Hero'
+import Loopp from './Loop';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -108,7 +109,8 @@ function App() {
       {/* <h1>Get input Value here !</h1> */}
       {/* <GetInputField/> */}
       {/* <Checkbox/> */}
-      <HandleRadioButton/>
+      {/* <HandleRadioButton/> */}
+      <Loopp/>
     </>
   );
 }
