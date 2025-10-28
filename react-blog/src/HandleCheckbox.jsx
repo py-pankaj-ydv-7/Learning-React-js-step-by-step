@@ -26,11 +26,11 @@ function HandleCheckbox() {
     <div>
         <h1>checkboxes </h1>
         <h3>Select Your Skills</h3>
-        <input type="checkbox" value="php" onChange={handleSkills} id="php" />
+        <input type="checkbox" value="php , " onChange={handleSkills} id="php" />
         <label htmlFor="php">Php</label> <br />
-        <input type="checkbox" value="python " onChange={handleSkills} id="Pythonbr" />
+        <input type="checkbox" value="python , " onChange={handleSkills} id="Pythonbr" />
         <label htmlFor="Pythonbr">Python</label> <br/>
-        <input type="checkbox" value="c++" id="C++" onChange={handleSkills} /><label htmlFor="C++">C++</label> <br/>
+        <input type="checkbox" value="c++ , " id="C++" onChange={handleSkills} /><label htmlFor="C++">C++</label> <br/>
         <h1>{skills}</h1>
         {/* <h1>{skills1}</h1>
         <h1>{skills2}</h1> */}

@@ -11,9 +11,9 @@
 // import LoopInJsx from "./LoopInJsx";
 
 // import HandleCheckbox from "./HandleCheckbox";
-// import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
+import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
 
-import GetInputFeild from "./GetInputFeild";
+// import GetInputFeild from "./GetInputFeild";
 
 // import Todo from "./Todo";
 // import User from "./User";
@@ -135,12 +135,12 @@ function App(){
 
        {/* props pad chuka hu me ******/}
        {/* <Props/> */}
-       <GetInputFeild/>
+       {/* <GetInputFeild/> */}
 
        {/* ** Yaha me controlled component pad chuka hu  */}
        {/* <ControlledComponent /> */}
        {/* <HandleCheckbox /> */}
-       {/* <HadleRadioAndDropdown/> */}
+       <HadleRadioAndDropdown/>
        {/* <Getfeild/> */}
        {/* <LoopInJsx/> */}
        {/* <ReuseComponent/> */}

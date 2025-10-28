@@ -1,8 +1,9 @@
 // import { useState } from 'react';
+import HandleRadioButton from './HandleRadio';
 // import MultipleCondition from "./MultipleConditon";
 // import "./App.css";
 // import GetInputField from "./GetInputField";
-import Checkbox from "./Checkbox";
+// import Checkbox from "./Checkbox";
 // import Counter from "./Counter";
 // import Toggle from './Toggle';
 // import Footer from './Footer'
@@ -106,7 +107,8 @@ function App() {
       {/* <MultipleCondition/> */}
       {/* <h1>Get input Value here !</h1> */}
       {/* <GetInputField/> */}
-      <Checkbox/>
+      {/* <Checkbox/> */}
+      <HandleRadioButton/>
     </>
   );
 }
