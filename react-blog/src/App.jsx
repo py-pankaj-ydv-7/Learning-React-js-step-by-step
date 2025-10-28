@@ -88,7 +88,7 @@
 
 // import ControlledComponent from "./ControlledComponent";
 // import Getfeild from "./Getfeild";
-// import Props from "./Props";
+import Props from "./Props";
 // import Toggle from "./ToggleHideAndShow";
 // import MultipleCondition from "./MultipleCondition";
 // import User from "./UserProps";
@@ -134,7 +134,7 @@ function App(){
        {/* <User name="panakj yadav" />  */}
 
        {/* props pad chuka hu me ******/}
-       {/* <Props/> */}
+       <Props/>
 
        {/* ** Yaha me controlled component pad chuka hu  */}
        {/* <ControlledComponent /> */}

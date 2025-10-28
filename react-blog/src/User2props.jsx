@@ -1,9 +1,9 @@
 
 
-function User2props({name="New User"}) {
+function User2props({name="New User",age}) {
   return (
     <div>
-        <h1> Hi,{name} </h1>
+        <h1> Hi,{name} .{age}</h1>
 
     </div>
   )

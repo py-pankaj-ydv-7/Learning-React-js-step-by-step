@@ -13,7 +13,7 @@ interview Question
 // import College from "./College"
 // import Student from "./Student"
 // import User from "./User"
-import User2props from "./User2props"
+// import User2props from "./User2props"
 import Wrapper from "./Wrapper"
 
 
@@ -42,28 +42,30 @@ function Props() {
         <h1>Props in React Js</h1>
     {/* <College name={collegeName}/> */}
     {/* <button onClick={()=>setStudent("sam")}>click</button> */}
+    {/* <h1>{student}</h1> */}
     {/* {student && <Student Name={student}/>} yaha humne check kiya condition */}
         {/* <User name="pankajYadav" age={24} email="pankajyadav851685@gmail.com" employeeId={2563370} Team="Shoapstream" TeamLead="Samarth Saxena" /> Yaha humne ise static tarike se pass kiya hai  */}
         {/* <User name={userName} age={age} email={email} employeeId={2563370} Team="Shoapstream" TeamLead="Samarth Saxena" /> */}
 
         {/* yaha me chije object me daal k pass kar rh hu */}
-        {/* <User user={userObject}/>
-        <User user={userObject2}/> */}
+        {/* <User user={userObject}/> */}
+        {/* <User user={userObject2}/> */}
 
         <h1>Advance concept of props</h1>
         <hr />
-        <Wrapper color="red">
+        <Wrapper color="red" width="500px">
             <h1>Hello everyOne</h1>
-        </Wrapper> {/* is tarike se hum html pass kar sakte hai , even kuch bhi ye children ban gaya hai children ki tarh kaam karega */}
-        <Wrapper color="blue">
+            <h1>Hello everyOne2</h1>
+        </Wrapper> is tarike se hum html pass kar sakte hai , even kuch bhi ye children ban gaya hai children ki tarh kaam karega
+         <Wrapper color="blue">
             <h1>Hello Pankaj </h1>
         </Wrapper>
-        <Wrapper>
+         <Wrapper>
             <h1>Hello Yadav ji </h1>
-        </Wrapper>
+        </Wrapper> 
         {/* <User2props name="Pankaj Yadav"/>
         <User2props name="Marq Yadav"/>
-        <User2props /> */}
+        <User2props name="kariya" age="14"/> */}
     </div>
   )
 }

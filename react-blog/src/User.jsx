@@ -10,7 +10,7 @@ function User({user}){
             {/* <h1>Employee name :  {data.user.name}</h1>
             <h1>Employee Age :  {data.user.age}</h1>
             <h1>Employee email :  {data.user.email}</h1> */}
-            <h1>Employee Age :  {user.name}</h1>
+            <h1>Employee Name :  {user.name}</h1>
             <h1>Employee Age :  {user.age}</h1>
             <h1>Employee email :  {user.email}</h1>
             <hr />
