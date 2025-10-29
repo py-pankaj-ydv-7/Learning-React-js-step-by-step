@@ -1,17 +1,19 @@
 // import Login,{Profile,Setting} from "./UserComponent";
 
+// import Clock from "./Clock";
+
 // import InlineStyling from "./stylinginReact/InlineStyling";
 
 // import UseEffect from "./UseEffect";
 
-// import ArrayNestedLoop from "./ArrayNestedLoop";
+import ArrayNestedLoop from "./ArrayNestedLoop";
 
 // import ReuseComponent from "./ReuseComponent";
 
 // import LoopInJsx from "./LoopInJsx";
 
 // import HandleCheckbox from "./HandleCheckbox";
-import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
+// import HadleRadioAndDropdown from "./HadleRadioAndDropdown";
 
 // import GetInputFeild from "./GetInputFeild";
 
@@ -140,14 +142,15 @@ function App(){
        {/* ** Yaha me controlled component pad chuka hu  */}
        {/* <ControlledComponent /> */}
        {/* <HandleCheckbox /> */}
-       <HadleRadioAndDropdown/>
+       {/* <HadleRadioAndDropdown/> */}
        {/* <Getfeild/> */}
        {/* <LoopInJsx/> */}
        {/* <ReuseComponent/> */}
-      {/* <ArrayNestedLoop/> */}
+      <ArrayNestedLoop/>
       {/* <UseEffect/> */}
       {/* <InlineStyling/> */}
       {/* <Click/> */}
+      {/* <Clock/> */}
 
     </div>
   )
