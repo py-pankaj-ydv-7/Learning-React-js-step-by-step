@@ -9,7 +9,9 @@
 // import Footer from './Footer'
 // import Header from './Header'
 // import Hero from './Hero'
-import Loopp from './Loop';
+// import Loopp from './Loop';
+
+import ArrayNestedLooping from "./ArrayNestedLooping";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -110,7 +112,8 @@ function App() {
       {/* <GetInputField/> */}
       {/* <Checkbox/> */}
       {/* <HandleRadioButton/> */}
-      <Loopp/>
+      {/* <Loopp/> */}
+      <ArrayNestedLooping/>
     </>
   );
 }
