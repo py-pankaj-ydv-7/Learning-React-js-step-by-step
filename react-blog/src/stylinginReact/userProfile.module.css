@@ -1,0 +1,22 @@
+.heading{
+    color: red;
+}
+
+.img-style{
+    width: 200px;
+}
+.usercard{
+    margin: 10px;
+    width: 200px;
+    border: 1px solid black;;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+.textstyle{
+padding:10px;
+}
+
+.constainer{
+    display: flex;
+    flex-wrap: wrap;
+}

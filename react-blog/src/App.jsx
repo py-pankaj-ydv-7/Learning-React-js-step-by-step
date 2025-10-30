@@ -2,7 +2,7 @@
 
 // import Clock from "./Clock";
 
-import InlineStyling from "./stylinginReact/InlineStyling";
+// import InlineStyling from "./stylinginReact/InlineStyling";
 
 // import UseEffect from "./UseEffect";
 
@@ -94,6 +94,8 @@ import InlineStyling from "./stylinginReact/InlineStyling";
 // import Toggle from "./ToggleHideAndShow";
 // import MultipleCondition from "./MultipleCondition";
 // import User from "./UserProps";
+// import ExternalStyle from "./stylinginReact/ExternalStyle";
+import UserProfile from "./stylinginReact/UserProfile";
 
 // function App(){
 //   return(
@@ -148,9 +150,12 @@ function App(){
        {/* <ReuseComponent/> */}
       {/* <ArrayNestedLoop/> */}
       {/* <UseEffect/> */}
-      <InlineStyling/>
+      {/* <InlineStyling/> */}
       {/* <Click/> */}
       {/* <Clock/> */}
+      {/* <ExternalStyle/> */}
+      <h1>Css module in react.js</h1>
+      <UserProfile/>
 
     </div>
   )
