@@ -2,11 +2,11 @@
 
 // import Clock from "./Clock";
 
-// import InlineStyling from "./stylinginReact/InlineStyling";
+import InlineStyling from "./stylinginReact/InlineStyling";
 
 // import UseEffect from "./UseEffect";
 
-import ArrayNestedLoop from "./ArrayNestedLoop";
+// import ArrayNestedLoop from "./ArrayNestedLoop";
 
 // import ReuseComponent from "./ReuseComponent";
 
@@ -146,9 +146,9 @@ function App(){
        {/* <Getfeild/> */}
        {/* <LoopInJsx/> */}
        {/* <ReuseComponent/> */}
-      <ArrayNestedLoop/>
+      {/* <ArrayNestedLoop/> */}
       {/* <UseEffect/> */}
-      {/* <InlineStyling/> */}
+      <InlineStyling/>
       {/* <Click/> */}
       {/* <Clock/> */}
 

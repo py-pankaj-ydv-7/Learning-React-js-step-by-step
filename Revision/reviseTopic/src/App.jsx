@@ -11,7 +11,10 @@
 // import Hero from './Hero'
 // import Loopp from './Loop';
 
-import ArrayNestedLooping from "./ArrayNestedLooping";
+import UseEffectPropshandle from "./UseEffectPropshandle";
+// import UseEffedt from "./UseEffedt";
+
+// import ArrayNestedLooping from "./ArrayNestedLooping";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -113,7 +116,9 @@ function App() {
       {/* <Checkbox/> */}
       {/* <HandleRadioButton/> */}
       {/* <Loopp/> */}
-      <ArrayNestedLooping/>
+      {/* <ArrayNestedLooping/> */}
+      {/* <UseEffedt/> */}
+      <UseEffectPropshandle/>
     </>
   );
 }

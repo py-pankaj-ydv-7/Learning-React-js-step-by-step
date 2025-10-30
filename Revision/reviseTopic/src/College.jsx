@@ -3,7 +3,7 @@ import Student from './Student';
 
 function College({college}) {
   return (
-    <div>
+    <div >
         <h1>Name: {college.collegeName}</h1>
               <ul>
                 <li>
@@ -18,9 +18,9 @@ function College({college}) {
                 <Student student={college}/>
                 
               </ul>
-              
+              </div>
             
-    </div>
+    
   )
 }
 
