@@ -98,7 +98,9 @@
 // import User from "./UserProps";
 // import ExternalStyle from "./stylinginReact/ExternalStyle";
 // import UserProfile from "./stylinginReact/UserProfile"
-import StylecComponent from "./StylecComponent";
+// import StylecComponent from "./StylecComponent";
+import Bootstrap from "./stylinginReact/Bootstrap";
+
 
 // function App(){
 //   return(
@@ -160,7 +162,8 @@ function App(){
       {/* <ExternalStyle/> */}
       {/* <h1>Css module in react.js</h1> */}
       {/* <UserProfile/> */}
-      <StylecComponent/>
+      {/* <StylecComponent/> */}
+      <Bootstrap/>
 
     </div>
   )
