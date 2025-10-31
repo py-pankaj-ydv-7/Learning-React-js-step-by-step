@@ -1,3 +1,5 @@
+
+
 // import Login,{Profile,Setting} from "./UserComponent";
 
 // import Clock from "./Clock";
@@ -95,7 +97,8 @@
 // import MultipleCondition from "./MultipleCondition";
 // import User from "./UserProps";
 // import ExternalStyle from "./stylinginReact/ExternalStyle";
-import UserProfile from "./stylinginReact/UserProfile";
+// import UserProfile from "./stylinginReact/UserProfile"
+import StylecComponent from "./StylecComponent";
 
 // function App(){
 //   return(
@@ -123,6 +126,7 @@ interview Question
 
 function App(){
   // let name = "Pankaj Yadav";
+
   return(
     <div>
       {/* <Ap/> */}
@@ -154,8 +158,9 @@ function App(){
       {/* <Click/> */}
       {/* <Clock/> */}
       {/* <ExternalStyle/> */}
-      <h1>Css module in react.js</h1>
-      <UserProfile/>
+      {/* <h1>Css module in react.js</h1> */}
+      {/* <UserProfile/> */}
+      <StylecComponent/>
 
     </div>
   )
