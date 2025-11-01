@@ -2,6 +2,8 @@
 
 // import Login,{Profile,Setting} from "./UserComponent";
 
+import UncontrolledComponent from "./UncontrolledComponent";
+
 // import Clock from "./Clock";
 
 // import InlineStyling from "./stylinginReact/InlineStyling";
@@ -100,7 +102,7 @@
 // import UserProfile from "./stylinginReact/UserProfile"
 // import StylecComponent from "./StylecComponent";
 // import Bootstrap from "./stylinginReact/Bootstrap";
-import UseRef from "./UseRef";
+// import UseRef from "./UseRef";
 
 
 // function App(){
@@ -164,7 +166,8 @@ function App(){
       {/* <h1>Css module in react.js</h1> */}
       {/* <UserProfile/> */}
       {/* <StylecComponent/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <UncontrolledComponent/>
 
     </div>
   )
