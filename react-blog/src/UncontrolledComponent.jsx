@@ -33,7 +33,7 @@ function UncontrolledComponent() {
         <button>Submit</button>
         </form>
         <br /><br />
-        <hr />
+        <hr /> 
         <h1>Un Controlled Component with useRef </h1>
         <form action="" method="post" onSubmit={handleForm} >
         <input type="text" ref={userRef}  placeholder="enter user name "/>

@@ -2,7 +2,7 @@
 
 // import Login,{Profile,Setting} from "./UserComponent";
 
-import UncontrolledComponent from "./UncontrolledComponent";
+// import UncontrolledComponent from "./UncontrolledComponent";
 
 // import Clock from "./Clock";
 
@@ -103,6 +103,8 @@ import UncontrolledComponent from "./UncontrolledComponent";
 // import StylecComponent from "./StylecComponent";
 // import Bootstrap from "./stylinginReact/Bootstrap";
 // import UseRef from "./UseRef";
+// import User from "./User";
+import ForwardRef from "./ForwardRef";
 
 
 // function App(){
@@ -131,6 +133,14 @@ interview Question
 
 function App(){
   // let name = "Pankaj Yadav";
+
+  // const displayName=(name)=>{
+  //   alert(name)
+  // }
+
+  // const getUser=()=>{
+  //   alert("get user function called ");
+  // }
 
   return(
     <div>
@@ -167,7 +177,14 @@ function App(){
       {/* <UserProfile/> */}
       {/* <StylecComponent/> */}
       {/* <UseRef/> */}
-      <UncontrolledComponent/>
+      {/* <UncontrolledComponent/> */}
+      {/* <h1>Call Parent component Function from child component</h1>
+      <User displayName={displayName} name="pankaj yadav" getUser={getUser}/>
+      <User displayName={displayName} name="pankaj yadav" getUser={getUser}/>
+      <User displayName={displayName} name="pankaj yadav" getUser={getUser}/>
+      <User displayName={displayName} name="pankaj yadav" getUser={getUser}/> */}
+
+      <ForwardRef/>
 
     </div>
   )
