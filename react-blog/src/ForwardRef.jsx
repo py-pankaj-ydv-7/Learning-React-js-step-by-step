@@ -1,4 +1,5 @@
 import { useRef } from "react"
+import UserInput from "./UserInput";
 
 
 function ForwardRef() {
@@ -7,11 +8,12 @@ function ForwardRef() {
     const updateInput=()=>{
         inputRef.current.focus();
         inputRef.current.value="1000";
+        inputRef.current.style.color="red";
     }
   return (
     <div>
         <h1>ForwardRef</h1>
-        <input type="text" ref={inputRef}/>
+       <UserInput ref={inputRef} />
         <button onClick={updateInput}>Update Input Field </button>
     </div>
   )
