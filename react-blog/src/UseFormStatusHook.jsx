@@ -3,11 +3,11 @@ import {useFormStatus} from 'react-dom'
 function UseFormStatusHook() {
     const handleSubmit=async()=>{
       await  new Promise(res=>setTimeout(res,5000));
-        console.log("submit");
+        // console.log("submit");
     }
     function CustomerForm(){
         const {pending} = useFormStatus();
-        console.log(pending);
+        // console.log(pending);
         
         return(
             <div>
