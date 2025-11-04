@@ -107,7 +107,9 @@
 // import ForwardRef from "./ForwardRef";
 // import UseFormStatusHook from "./UseFormStatusHook";
 // import UseTransitionHook from "./UseTransitionHook";
-import DerivedStates from "./DerivedStates";
+// import DerivedStates from "./DerivedStates";
+// import Lifting from "./Lifting";
+import UpdatingObjInState from "./UpdatingObjInState";
 
 // function App(){
 //   return(
@@ -189,7 +191,9 @@ function App(){
       {/* <ForwardRef/> */}
       {/* <UseFormStatusHook/> */}
       {/* <UseTransitionHook/> */}
-      <DerivedStates/>
+      {/* <DerivedStates/> */}
+      {/* <Lifting/> */}
+      <UpdatingObjInState/>
 
     </div>
   )
