@@ -110,7 +110,9 @@
 // import DerivedStates from "./DerivedStates";
 // import Lifting from "./Lifting";
 // import UpdatingObjInState from "./UpdatingObjInState";
-   import UpdatingArrayInState from "./UpdatingArrayInState";
+//  import UpdatingArrayInState from "./UpdatingArrayInState";
+import UseActionStateHook from "./UseActionStateHook";
+
 
 // function App(){
 //   return(
@@ -195,7 +197,8 @@ function App(){
       {/* <DerivedStates/> */}
       {/* <Lifting/> */}
       {/* <UpdatingObjInState/> */}
-      <UpdatingArrayInState/>
+      {/* <UpdatingArrayInState/> */}
+      <UseActionStateHook/>
 
     </div>
   )
