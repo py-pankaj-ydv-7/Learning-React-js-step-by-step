@@ -112,7 +112,8 @@
 // import UpdatingObjInState from "./UpdatingObjInState";
 //  import UpdatingArrayInState from "./UpdatingArrayInState";
 // import UseActionStateHook from "./UseActionStateHook";
-   import UseIdHook from "./UseIdHook";
+// import UseIdHook from "./UseIdHook";
+import FragmentationInReact from "./FragmentationInReact";
 
 
 // function App(){
@@ -200,7 +201,8 @@ function App(){
       {/* <UpdatingObjInState/> */}
       {/* <UpdatingArrayInState/> */}
       {/* <UseActionStateHook/> */}
-      <UseIdHook/>
+      {/* <UseIdHook/> */}
+      <FragmentationInReact/>
 
 
     </div>
