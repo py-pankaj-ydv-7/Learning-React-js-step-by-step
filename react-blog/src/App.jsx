@@ -111,7 +111,8 @@
 // import Lifting from "./Lifting";
 // import UpdatingObjInState from "./UpdatingObjInState";
 //  import UpdatingArrayInState from "./UpdatingArrayInState";
-import UseActionStateHook from "./UseActionStateHook";
+// import UseActionStateHook from "./UseActionStateHook";
+   import UseIdHook from "./UseIdHook";
 
 
 // function App(){
@@ -198,7 +199,9 @@ function App(){
       {/* <Lifting/> */}
       {/* <UpdatingObjInState/> */}
       {/* <UpdatingArrayInState/> */}
-      <UseActionStateHook/>
+      {/* <UseActionStateHook/> */}
+      <UseIdHook/>
+
 
     </div>
   )
