@@ -9,7 +9,7 @@ function FragmentationInReact() {
     <Data/>
     <Data/>
     <Data/>
-    <Data/>
+    <Data/> 
     </>
   )
 }

@@ -2,6 +2,8 @@
 
 // import Login,{Profile,Setting} from "./UserComponent";
 
+
+
 // import UncontrolledComponent from "./UncontrolledComponent";
 
 // import Clock from "./Clock";
@@ -113,7 +115,8 @@
 //  import UpdatingArrayInState from "./UpdatingArrayInState";
 // import UseActionStateHook from "./UseActionStateHook";
 // import UseIdHook from "./UseIdHook";
-import FragmentationInReact from "./FragmentationInReact";
+// import FragmentationInReact from "./FragmentationInReact";
+import ContextApi from "./contextApi/ContextApi";
 
 
 // function App(){
@@ -202,7 +205,8 @@ function App(){
       {/* <UpdatingArrayInState/> */}
       {/* <UseActionStateHook/> */}
       {/* <UseIdHook/> */}
-      <FragmentationInReact/>
+      {/* <FragmentationInReact/> */}
+      <ContextApi/>
 
 
     </div>
