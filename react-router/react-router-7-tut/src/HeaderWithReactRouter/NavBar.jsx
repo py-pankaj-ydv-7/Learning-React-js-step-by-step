@@ -13,8 +13,13 @@ export default function NavBar() {
                 <li>
                     <Link className="link" to={"/login"}>Login</Link>
                 </li>
+
+                {/* nested navigation  */}
                 <li>
                     <Link className="link" to={"/about"}>About</Link>
+                </li>
+                <li>
+                    <Link className="link" to={"/college"}>College</Link>
                 </li>
             </ul>
         </div>
