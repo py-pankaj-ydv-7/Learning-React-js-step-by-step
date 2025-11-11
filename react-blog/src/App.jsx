@@ -116,8 +116,8 @@
 // import UseActionStateHook from "./UseActionStateHook";
 // import UseIdHook from "./UseIdHook";
 // import FragmentationInReact from "./FragmentationInReact";
-import ContextApi from "./contextApi/ContextApi";
-
+// import ContextApi from "./contextApi/ContextApi";
+import CustomHook from "./Customhook/CustomHook";
 
 // function App(){
 //   return(
@@ -206,7 +206,8 @@ function App(){
       {/* <UseActionStateHook/> */}
       {/* <UseIdHook/> */}
       {/* <FragmentationInReact/> */}
-      <ContextApi/>
+      {/* <ContextApi/> */}
+      <CustomHook/>
 
 
     </div>
