@@ -14,16 +14,22 @@ function Header() {
   return (
     <div>
 
-      <NavBar/>    
-        <Routes>
-            <Route path="/" element={<Home/>} />
+      {/* <NavBar/>     */}
+      <Routes>
+      <Route element={<NavBar/>}>
+        <Route path="/" element={<Home/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/about" element={<About/>} />
+
+
+      </Route>
+        
+          
             <Route path="/college" element={<College/>}>
 
              <Route path="department" element={<Department/>} />
              <Route path="details" element={<Details/>} />
-             <Route path="Student" element={<Students/>} />
+             <Route index element={<Students/>} />
 
             </Route>
            
