@@ -1,32 +1,33 @@
-import { Link, Outlet } from "react-router"
+import { NavLink ,Outlet} from "react-router";
+
 import  './header.css'
 
 export default function NavBar() {
   return (
    <div>
      <div className="header">
-        <div className="link" to={"/"}><Link><h2>LOGO</h2></Link></div>
+        <div className="NavLink" to={"/"}><NavLink><h2>LOGO</h2></NavLink></div>
         <div >
             <ul>
                 <li>
-                    <Link className="link" to={"/"}>Home</Link>
+                    <NavLink className="link" to={"/"}>Home</NavLink>
                 </li>
                 <li>
-                    <Link className="link" to={"/user/login"}>Login</Link>
+                    <NavLink className="link" to={"/user/login"}>Login</NavLink>
                 </li>
 
                 {/* nested navigation  */}
                 <li>
-                    <Link className="link" to={"/user/about"}>About</Link>
+                    <NavLink className="link" to={"/user/about"}>About</NavLink>
                 </li>
                 <li>
-                    <Link className="link" to={"/user/users"}>Users</Link>
+                    <NavLink className="link" to={"/user/users"}>Users</NavLink>
                 </li>
                 <li>
-                    <Link className="link" to={"/user/users/list"}>List</Link>
+                    <NavLink className="link" to={"/user/users/list"}>List</NavLink>
                 </li>
                 <li>
-                    <Link className="link" to={"/college"}>College</Link>
+                    <NavLink className="link" to={"/college"}>College</NavLink>
                 </li>
             </ul>
         </div>
