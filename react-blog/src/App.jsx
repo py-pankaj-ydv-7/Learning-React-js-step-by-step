@@ -117,7 +117,8 @@
 // import UseIdHook from "./UseIdHook";
 // import FragmentationInReact from "./FragmentationInReact";
 // import ContextApi from "./contextApi/ContextApi";
-import CustomHook from "./Customhook/CustomHook";
+// import CustomHook from "./Customhook/CustomHook";
+import FetchApi from "./FetchDataFromApi/FetchApi";
 
 // function App(){
 //   return(
@@ -207,7 +208,8 @@ function App(){
       {/* <UseIdHook/> */}
       {/* <FragmentationInReact/> */}
       {/* <ContextApi/> */}
-      <CustomHook/>
+      {/* <CustomHook/> */}
+      <FetchApi/>
 
 
     </div>

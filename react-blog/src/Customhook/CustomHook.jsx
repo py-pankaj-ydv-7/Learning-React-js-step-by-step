@@ -7,9 +7,9 @@ function CustomHook() {
     
   return (
     <div>
-        <button onClick={toggleValue}>Toggle Heading</button>
-        <button onClick={()=>toggleValue(false)}>Hide Heading</button>
-        <button onClick={()=>toggleValue(true)}>Show Heading</button>
+        <button onClick={toggleValue}>Toggle Heading </button><br /><br />
+        <button onClick={()=>toggleValue(false)}>Hide Heading</button><br /><br />
+        <button onClick={()=>toggleValue(true)}>Show Heading</button><br /><br />
         
         {
             value? <h1>CustomHook</h1>:null
@@ -21,6 +21,10 @@ function CustomHook() {
         {
             data?<h1>Second Heading</h1>:null
         }
+        <hr /><hr />
+        <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 
     </div>
   )
