@@ -17,7 +17,7 @@
 .header ul{
     display: flex;
     list-style-type: none;
-    width: 300px;
+    width: 350px;
     margin: auto;
     list-style: none;
     justify-content: space-around;

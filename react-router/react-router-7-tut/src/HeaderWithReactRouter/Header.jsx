@@ -23,8 +23,9 @@ function Header() {
             <Route path="/user">
             <Route path="/user/login" element={<Login/>} />
             <Route path="/user/about" element={<About/>} />
-            <Route path="/user/users" element={<Users/>} />
-            <Route path="/user/users/:id" element={<UserDetails/>} />
+            <Route path="/user/users/list?" element={<Users/>} />
+            {/* <Route path="/user/users/list" element={<Users/>} /> */}
+            <Route path="/user/users/:id/:name?" element={<UserDetails/>} />
             </Route>
             {/* <Route path="/user/signup" element={<Signup/>} /> */}
 

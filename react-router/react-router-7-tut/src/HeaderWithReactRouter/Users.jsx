@@ -20,6 +20,16 @@ export default function Users() {
       }
       
     </div>
+    <hr /><hr /><br />
+      <h1>Users List Page with Name in URL</h1>
+      <div style={{marginLeft:"10px" }}>
+      {
+        userList.map((item,index)=>(    
+          <h2 key={index}><Link to={"/user/users/"+item.id+"/"+item.name}>{item.name}</Link> </h2>
+        ))
+      }
+      
+    </div>
   
     </div>
   )
