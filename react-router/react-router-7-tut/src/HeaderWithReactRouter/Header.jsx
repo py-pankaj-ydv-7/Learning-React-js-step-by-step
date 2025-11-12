@@ -7,6 +7,8 @@ import College from "./College"
 import Department from "./Departments"
 import Details from "./Details"
 import Students from "./Students"
+import Users from "./Users"
+import UserDetails from "./UserDetails"
 // import PageNotFound from "./PageNotFound"
 
 
@@ -18,8 +20,13 @@ function Header() {
       <Routes>
       <Route element={<NavBar/>}>
         <Route path="/" element={<Home/>} />
-            <Route path="/login" element={<Login/>} />
-            <Route path="/about" element={<About/>} />
+            <Route path="/user">
+            <Route path="/user/login" element={<Login/>} />
+            <Route path="/user/about" element={<About/>} />
+            <Route path="/user/users" element={<Users/>} />
+            <Route path="/user/users/:id" element={<UserDetails/>} />
+            </Route>
+            {/* <Route path="/user/signup" element={<Signup/>} /> */}
 
 
       </Route>
