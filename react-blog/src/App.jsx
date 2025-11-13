@@ -118,7 +118,8 @@
 // import FragmentationInReact from "./FragmentationInReact";
 // import ContextApi from "./contextApi/ContextApi";
 // import CustomHook from "./Customhook/CustomHook";
-import FetchApi from "./FetchDataFromApi/FetchApi";
+// import FetchApi from "./FetchDataFromApi/FetchApi";
+import IntegrationJson from "./FetchDataFromApi/IntegrationJson";
 
 // function App(){
 //   return(
@@ -209,7 +210,8 @@ function App(){
       {/* <FragmentationInReact/> */}
       {/* <ContextApi/> */}
       {/* <CustomHook/> */}
-      <FetchApi/>
+      {/* <FetchApi/> */}
+      <IntegrationJson/>
 
 
     </div>
