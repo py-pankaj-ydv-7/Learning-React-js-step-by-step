@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../index.css"
 
-export default function IntegrationJson() {
+export default function UserList() {
   const [userData,setUserData]=useState([]);
   // yaha ye state me loader dikhane k liye use kr rh hu .
   const [ loading,setLoading]=useState(false)
@@ -22,7 +22,7 @@ export default function IntegrationJson() {
   }
   return (
     <div>
-        <h1>Integration Json Server API and Loader</h1>
+        <h1>Make Routes and Pages for Add User and User List UI</h1>
              <ul className="user-list user-list-head">
               <li>Name</li>
               <li>Age</li>

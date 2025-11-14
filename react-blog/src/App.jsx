@@ -119,7 +119,8 @@
 // import ContextApi from "./contextApi/ContextApi";
 // import CustomHook from "./Customhook/CustomHook";
 // import FetchApi from "./FetchDataFromApi/FetchApi";
-import IntegrationJson from "./FetchDataFromApi/IntegrationJson";
+// import IntegrationJson from "./FetchDataFromApi/IntegrationJson";
+import RoutesAndPages from "./FetchDataFromApi/RoutesAndPages";
 
 // function App(){
 //   return(
@@ -211,7 +212,8 @@ function App(){
       {/* <ContextApi/> */}
       {/* <CustomHook/> */}
       {/* <FetchApi/> */}
-      <IntegrationJson/>
+      {/* <IntegrationJson/> */}
+      <RoutesAndPages/>
 
 
     </div>
