@@ -14,7 +14,8 @@ export default function UserAdd() {
         }) ;
         response= await response.json();
         if(response){
-            alert("new user added ")
+            alert("new user added ");
+            alert("new user added ");
         }
     }
 
