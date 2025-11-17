@@ -22,6 +22,7 @@ export default function RoutesAndPages() {
             {/* <Route path="add" element={<UserAdd/>} /> */}
         </Routes>
         <UserAdd/>
+        <UserAdd/>
       
     </div>
   )
