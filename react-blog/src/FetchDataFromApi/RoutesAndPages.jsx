@@ -23,6 +23,8 @@ export default function RoutesAndPages() {
         </Routes>
         <UserAdd/>
         <UserAdd/>
+        <UserAdd/>
+        <UserAdd/>
       
     </div>
   )
