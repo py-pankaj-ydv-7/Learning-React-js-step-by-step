@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import "../index.css"
+import { useNavigate } from "react-router";
 
 export default function UserList() {
   const [userData,setUserData]=useState([]);
   // yaha ye state me loader dikhane k liye use kr rh hu .
   const [ loading,setLoading]=useState(false);
+  const navigate = useNavigate(); // ye hamara hook rahega
   const url ="http://localhost:3000/users";
   useEffect(()=>{
     setLoading(true);
@@ -31,6 +33,12 @@ export default function UserList() {
     
   }
 
+  const editUser = async(id)=>{
+    navigate("/edit/"+id)
+
+
+  }
+
 
   return (
     <div>
@@ -49,7 +57,10 @@ export default function UserList() {
               <li>{user.name}</li>
               <li>{user.age}</li>
               <li>{user.email}</li>
-              <li><button onClick={()=>deleteUser(user.id)}>Button</button></li>
+              <li>
+              <button onClick={()=>deleteUser(user.id)}>Delete</button>
+              <button onClick={()=>editUser(user.id)}>Edit</button>
+              </li>
             </ul>
           ))
           :<h1>Loading data...</h1>

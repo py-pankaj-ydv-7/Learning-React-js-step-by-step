@@ -3,6 +3,7 @@ import { Routes, Route, NavLink } from "react-router"
 import UserAdd from "./UserAdd"
 import UserList from "./UserList"
 import "../index.css"
+import UserEdit from "./UserEdit"
 
 export default function RoutesAndPages() {
   return (
@@ -19,13 +20,10 @@ export default function RoutesAndPages() {
         {/* <UserList/> */}
         <Routes>
             <Route path="list" element={<UserList/>} />
-            {/* <Route path="add" element={<UserAdd/>} /> */}
+            <Route path="add" element={<UserAdd/>} />
+            <Route path="edit/:id" element={<UserEdit/>} />
         </Routes>
-        <UserAdd/>
-        <UserAdd/>
-        <UserAdd/>
-        <UserAdd/>
-      
+        {/* <UserAdd/>       */}
     </div>
   )
 }
