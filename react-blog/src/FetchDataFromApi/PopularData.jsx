@@ -2,7 +2,9 @@
 
 function PopularData() {
   return (
-    <div>PopularData</div>
+    <div>
+      <h1>PopularData</h1>
+    </div>
   )
 }
 
